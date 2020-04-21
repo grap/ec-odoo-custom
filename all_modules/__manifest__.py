@@ -9,26 +9,16 @@
     "author": "GRAP",
     "license": "AGPL-3",
     "depends": [
+        # OCA / account-financial-tools
+        "account_menu",
         # OCA / account-fiscal-rule
         "account_fiscal_position_usage_group",
         "account_product_fiscal_classification",
-        # OCA / account-financial-tools
-        "account_menu",
-        # OCA / web
-        "web_responsive",
-        "web_export_view",
-        "web_disable_export_group",
-        "web_switch_context_warning",
-        "web_widget_color",
-        "web_decimal_numpad_dot",
-        "web_group_by_percentage",
-        "web_no_bubble",
-        "web_widget_image_download",
-        # OCA / rest-framework
-        "base_rest",
         # OCA / reporting-engine
         "report_xlsx",
         "bi_sql_editor",
+        # OCA / rest-framework
+        "base_rest",
         # OCA / server-auth
         "auth_ldaps",
         # OCA / server-brand
@@ -39,6 +29,16 @@
         # OCA / server-ux
         "mass_editing",
         "base_export_manager",
+        # OCA / web
+        "web_responsive",
+        "web_export_view",
+        "web_disable_export_group",
+        "web_switch_context_warning",
+        "web_widget_color",
+        "web_decimal_numpad_dot",
+        "web_group_by_percentage",
+        "web_no_bubble",
+        "web_widget_image_download",
     ],
     "data": [],
     "installable": True,
